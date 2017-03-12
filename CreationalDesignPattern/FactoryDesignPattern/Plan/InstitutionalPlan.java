@@ -1,11 +1,12 @@
 package CreationalDesignPattern.FactoryDesignPattern.Plan;
 
+
 import java.util.* ;
 
-public class CommercialPlan extends Plan {
+public class InstitutionalPlan extends Plan {
 
 	public double getRate() {
-		rate = 4.50;
+		rate = 5.50;
 		return rate;
 	}
 }

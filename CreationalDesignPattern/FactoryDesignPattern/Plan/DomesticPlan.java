@@ -2,9 +2,9 @@ package CreationalDesignPattern.FactoryDesignPattern.Plan;
 
 import java.util.*;
 
-class DomesticPlan extends Plan {
+public class DomesticPlan extends Plan {
 
-	double getRate() {
+	public double getRate() {
 		rate = 3.50;
 		return rate;
 	}
